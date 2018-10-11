@@ -1,0 +1,11 @@
+SASSA - Statistics and Actuarial Science Student Association
+
+Access: Webmaster (sassa-web@sfu.ca)
+
+
+Useful .htaccess (for "exams")
+
+# Allows only computers on the sfu.ca domain, or requests valid user/password
+AuthType CAS
+allow from sfu.ca
+require valid-sfu-user
